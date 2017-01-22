@@ -1,0 +1,7 @@
+task main(){
+	moveMotorTarget(2, 0, 300);
+	
+	while(true){
+		motor[port2] = 63;
+	}
+}
